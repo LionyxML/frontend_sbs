@@ -1,0 +1,66 @@
+
+#principal{
+  display: grid;
+  /*
+  grid-template-areas: "cabecalho cabecalho"
+                       "menu      menu"
+                       "conteudo  aside"
+                       "rodape    rodape";
+  */
+
+  /*
+  grid-template-rows: 20px 30px 200px 20px;
+  grid-template-columns: 1.7fr 0.3fr;   80% 20%, 100px 20px, repeat(2, 1fr)
+  */
+  grid-template-rows: repeat(5, 50px);
+  grid-template-columns: repeat(5, 1fr);
+
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+
+}
+
+.cabecalho{
+  background-color: red;
+  /* grid-area: cabecalho; */
+  grid-row-start: 1;
+  grid-row-end: 2; /* 1 a mais sempre */
+  grid-column-start: 1;
+  grid-column-end: 6; /* 1 a mais */
+}
+
+.menu{
+  background-color: blue;
+  /* grid-area: menu; */
+  grid-row-start: 2;
+  grid-row-end: 2; /* 1 a mais sempre */
+  grid-column-start: 1;
+  grid-column-end: 6; /* 1 a mais */
+}
+
+.conteudo{
+  background-color: green;
+  /* grid-area: conteudo; */
+  grid-row-start: 3;
+  grid-row-end: 5; /* 1 a mais sempre */
+  grid-column-start: 1;
+  grid-column-end: 4; /* 1 a mais */
+}
+
+.conteudo-secundario{
+  background-color: violet;
+  /* grid-area: aside; */
+  grid-row-start: 3;
+  grid-row-end: 5; /* 1 a mais sempre */
+  grid-column-start: 4;
+  grid-column-end: 6; /* 1 a mais */
+}
+
+.rodape{
+  background-color: darkgoldenrod;
+  /* grid-area: rodape; */
+  grid-row-start: 5;
+  grid-row-end: 5; /* 1 a mais sempre */
+  grid-column-start: 1;
+  grid-column-end: 6; /* 1 a mais */
+}
