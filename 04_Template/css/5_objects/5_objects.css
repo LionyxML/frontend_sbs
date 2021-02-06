@@ -57,3 +57,82 @@
 #btn-bag:hover {
   background-color: #8a378d;
 }
+
+
+#article > span {
+  width: 450px;
+  height: 345px;
+  margin: 36.9px 118px 59px 27px;
+  opacity: 0.35;
+  font-size: 289px;
+  font-weight: bold;
+  letter-spacing: 86px;
+  text-align: center;
+  color: #dbdbdb;
+  position: absolute;
+  z-index: -1;
+  margin-top: 130px;
+}
+
+#article > h1 {
+  width: 490px;
+  height: 189px;
+  margin: 111.9px 105px 27px 0;
+  font-size: 54px;
+  font-weight: bold;
+  letter-spacing: normal;
+  text-align: center;
+  color: #488cf5;
+  margin-top: 100px;
+}
+
+#article > h2 {
+  width: 494px;
+  height: 149px;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 0.54px;
+  text-align: center;
+  color: #adadad;
+}
+
+.send-message {
+  width: 504px;
+  height: 56px;
+  border-radius: 28px;
+  box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
+  -webkit-box-shadow: 3px 3px 3px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+}
+
+.send-message > i > img {
+  padding-left: 20px;
+  position: relative;
+  top: 6px;
+}
+
+.send-message input {
+  position: relative;
+  padding: 18px 16px;
+  border: none;
+  width: 310px;
+
+}
+
+.send-message button{
+  width: 100px;
+  height: 45px;
+  border-radius: 30px;
+  -webkit-radius: 30px;
+  background-color: #488cf5;
+  border: none;
+  cursor: pointer;
+  color: white;
+  letter-spacing: 0.42px;
+}
+
+.send-message button:hover{
+  background-color: #f4891f;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+}

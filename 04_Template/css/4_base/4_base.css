@@ -70,3 +70,12 @@ header {
 nav {
   flex-grow: 1;
 }
+
+picture {
+	grid-area: picture;
+	justify-self: end;
+}
+
+article {
+	grid-area: article;
+}
